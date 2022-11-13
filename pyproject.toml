@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "satellite-classifier"
+version = "0.1.0"
+description = ""
+authors = ["Leandro Guarino <le.guarino@gmail.com>"]
+readme = "README.md"
+packages = [{include = "satellite_classifier"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+torch = "^1.13.0"
+torchvision = "^0.14.0"
+numpy = "^1.23.4"
+matplotlib = "^3.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
