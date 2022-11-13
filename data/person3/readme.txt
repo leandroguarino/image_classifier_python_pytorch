@@ -1,0 +1,1 @@
+Put in this folder some images from person1 with same width and height. All imagem need to have same width and height.
